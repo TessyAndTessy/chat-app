@@ -8,19 +8,7 @@
 </div>
 
 <div class = "messages">
-  <div class = "message_sum">
-    <div class = "user_date">
-      <div class = "user">
-        Tom
-      </div>
-      <div class = "date">
-        2025/10/22(水) 13:52:24
-      </div>      
-    </div>
-    <div class = message>
-      ダミーメッセージ1
-    </div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 
